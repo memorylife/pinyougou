@@ -1,0 +1,363 @@
+/* 详情页的样式文件 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?mcsslk');
+    src: url('../fonts/icomoon.eot?mcsslk#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?mcsslk') format('truetype'), url('../fonts/icomoon.woff?mcsslk') format('woff'), url('../fonts/icomoon.svg?mcsslk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.de_container {
+    margin-top: 20px;
+}
+
+.crumb_wrap a {
+    margin-left: 10px;
+}
+
+.crumb_wrap {
+    height: 25px;
+}
+
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.preview_list {
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.list_item li {
+    float: left;
+    margin: 0 2px;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+}
+
+.list_item li.current {
+    border-color: #c81623;
+}
+
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png);
+}
+
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png);
+}
+
+.itemInfo_wrap {
+    width: 718px;
+}
+
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.news {
+    height: 32px;
+    color: #e12228;
+}
+
+.summary_price,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    padding-left: 10px;
+    width: 60px;
+    line-height: 36px;
+}
+
+
+/* 清浮动的另一种方式 */
+
+.summary dl {
+    overflow: hidden;
+}
+
+.price {
+    font-size: 20px;
+    color: #e12228;
+}
+
+.remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.summary_promotion dd {
+    width: 450px;
+    line-height: 36px;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #c81623;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+}
+
+.summary_support dd {
+    line-height: 36px;
+}
+
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+
+.summary a.current {
+    border-color: #c81623;
+}
+
+.choose_version,
+.choose_contain,
+.suit {
+    margin: 10px 0;
+}
+
+.choose_version a,
+.choose_type a,
+.choose_contain a,
+.suit a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 32px;
+}
+
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-color: pink;
+}
+
+.choose_btns {
+    margin-top: 20px;
+}
+
+.addcar {
+    float: left;
+    margin-left: 10px;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.add {
+    top: 0;
+    right: 0;
+}
+
+.reduce {
+    bottom: 0;
+    right: 0;
+    cursor: not-allowed;
+}
+
+.add,
+.reduce {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.tab_list {
+    height: 34px;
+}
+
+.tab_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.tab_list li.current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: red;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.detail {
+    width: 978px;
+}
+
+.product_detail {
+    margin-bottom: 50px;
+}
+
+.tab_con {
+    padding: 0 10px;
+}
+
+.tab_con li {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+
+.aside_price {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.as_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 26px;
+}
+
+.tab_con .list {
+    width: 94px;
+}
+
+.tab_con .list,
+.tab_con .last_list {
+    float: left;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.tab_con .last_list {
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con div {
+    width: 198px;
+}
+
+.detail_tab_list {
+    height: 39px;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detail_tab_list .current {
+    color: #fff;
+    background-color: #c81623;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.item_info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-weight: 700;
+}
+
+.more i {
+    font-family: 'icomoon';
+}

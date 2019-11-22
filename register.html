@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="w">
+        <!-- header部分 -->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+
+        </div>
+        <!-- 注册部分 -->
+        <div class="registerarea">
+            <h3>
+                注册新用户
+                <em>
+                    我有账号
+                    ,去
+                    <a href="#">登录</a>
+
+                </em>
+            </h3>
+            <div class="reg_form">
+                <form action="demo.php">
+                    <ul>
+                        <li>
+                            <label for="tel">手机号：</label>
+                            <input type="text" class="inp" id="tel">
+                            <span class="error">
+                                        <i class="error_icon"></i>
+                                        手机格式不正确，请重新输入
+                                    </span>
+                        </li>
+                        <li>
+                            <label for="msg">短信验证码：</label>
+                            <input type="text" class="inp" id="msg">
+                        </li>
+                        <li>
+                            <label for="key">登录密码：</label>
+                            <input type="text" class="inp" id="key">
+                            <span class="success">
+                                            <i class="success_icon"></i>
+                                           恭喜输入正确
+                                        </span>
+                        </li>
+                        <li>
+                            <label for="rekey">确认密码：</label>
+                            <input type="text" class="inp" id="rekey">
+                            <span class="error">
+                                                <i class="error_icon"></i>
+                                               密码不一致，请重新输入
+                                            </span>
+                        </li>
+                        <li class="safe">安全程度
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox"> 同意协议并注册
+                            <a href="#">《用户协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="over">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>
